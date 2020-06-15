@@ -21,6 +21,7 @@ $(document).ready(function(){
 	//$("input").each(function () {
     //$(this).addClass("form-control");
 	//$(':input,:checkbox,:radio').addClass('YOUR_CLASSNAME');
+    $('input[type=email]').addClass('form-control');
 	$('input[type=text]').addClass('form-control');
 	$('input[type=tel]').addClass('form-control');
 	$('select').addClass('form-control');
