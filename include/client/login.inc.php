@@ -41,7 +41,7 @@ if ($content) {
 		</div>
 		<div>
 			<p>
-				<input class="btn btn-success" type="submit" value="<?php echo __('Sign In'); ?>">
+				<input class="btn btn-default" type="submit" value="<?php echo __('Sign In'); ?>">
 				<?php if ($suggest_pwreset) { ?>
 				<a style="padding-top:4px;display:inline-block;" href="pwreset.php"><?php echo __('Forgot My Password'); ?></a>
 				<?php } ?>

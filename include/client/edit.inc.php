@@ -23,7 +23,7 @@ if(!defined('OSTCLIENTINC') || !$thisclient || !$ticket || !$ticket->checkUserAc
     </tbody>
 </table>
 <p>
-    <input class="btn btn-success" type="submit" value="Update"/>
+    <input class="btn btn-default" type="submit" value="Update"/>
     <input class="btn btn-warning" type="reset" value="Reset"/>
     <input class="btn btn-default" type="button" value="Cancel" onclick="history.go(-1);"/>
 </p>

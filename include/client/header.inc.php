@@ -49,7 +49,7 @@ if ($lang) {
     <link type="text/css" rel="stylesheet" href="<?php echo ROOT_PATH; ?>css/flags.css">
     <link type="text/css" rel="stylesheet" href="<?php echo ROOT_PATH; ?>css/rtl.css"/>
     <link type="text/css" rel="stylesheet" href="<?php echo ROOT_PATH; ?>css/select2.min.css">
-
+    <link rel="icon" type="image/png" href="/images/favicon.png">
     <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="<?php echo ASSETS_PATH; ?>js/bootstrap.min.js"></script>
     <script type="text/javascript" src="<?php echo ROOT_PATH; ?>js/jquery-ui-1.10.3.custom.min.js"></script>

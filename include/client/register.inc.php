@@ -95,7 +95,7 @@ $info = Format::htmlchars(($errors && $_POST)?$_POST:$info);
 <?php } ?>
 
 <p>
-    <input class="btn btn-success" type="submit" value="Register"/>
+    <input class="btn btn-default" type="submit" value="Register"/>
     <input class="btn btn-default" type="button" value="Cancel" onclick="javascript:
         window.location.href='index.php';"/>
 </p>

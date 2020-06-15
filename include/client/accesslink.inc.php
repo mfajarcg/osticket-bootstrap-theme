@@ -38,7 +38,7 @@ else
 				size="30" value="<?php echo $ticketid; ?>" class="nowarn"></label>
 		</div>
 		<div><p>
-			<input class="btn btn-success" type="submit" value="<?php echo $button; ?>">
+			<input class="btn btn-default" type="submit" value="<?php echo $button; ?>">
 		</p>
 		</div>
 	</div>	
