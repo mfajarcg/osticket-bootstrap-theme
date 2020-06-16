@@ -117,7 +117,7 @@ if ($lang) {
 				 				  
 				   <?php if ($thisclient && is_object($thisclient) && $thisclient->isValid()
 										&& !$thisclient->isGuest()) { ?>
-										<p class="navbar-text"><?php echo Format::htmlchars($thisclient->getName()); ?></p>
+										<p class="navbar-text"><span class="glyphicon glyphicon-user white">&nbsp;</span><?php echo Format::htmlchars($thisclient->getName()); ?></p>
 										<?php if (!db_query($checkldap)){?>
 										<li><a href="<?php echo ROOT_PATH; ?>profile.php">
 											<?php echo __('<span class="glyphicon glyphicon-user"></span> Profile'); ?>

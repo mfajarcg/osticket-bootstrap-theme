@@ -12,12 +12,13 @@
 	$openTickets = $thisclient->getNumOpenTickets($org_tickets);
     $closedTickets = $thisclient->getNumClosedTickets($org_tickets);
 foreach ($user->getForms() as $f) {
-    $f->render(false);
+    $f->render(['staff' => false]);
 }
 if ($acct = $thisclient->getAccount()) {
     $info=$acct->getInfo();
     $info=Format::htmlchars(($errors && $_POST)?$_POST:$info);
 ?>
+<?php if(false){ //TODO: this part is undone by original creator ?>
 <div class="container">
 	<div class="row">
 		<div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
@@ -50,6 +51,7 @@ if ($acct = $thisclient->getAccount()) {
 		</div>
 	</div>
 </div>
+<?php } ?>
 <tr>
     <td colspan="2">
         <div><hr><h3><?php echo __('Preferences'); ?></h3>
